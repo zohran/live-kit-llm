@@ -6,8 +6,7 @@
   "scripts": {
     "start": "node dist/server.js start",
     "dev": "node dist/server.js dev",
-    "agent": "node dist/agent.js dev --api-key=APIGE4kpMkrtMB2 --api-secret=i8ovY0zhfMfJ2b3llT1J1J1BhMSsilA2TC5C7o08Jun --url=wss://dynamicspluscustomer-a7m1z8vs.livekit.cloud",
-    "agent start": "LIVEKIT_URL=wss://dynamicspluscustomer-a7m1z8vs.livekit.cloud LIVEKIT_API_KEY=APIGE4kpMkrtMB2 LIVEKIT_API_SECRET=i8ovY0zhfMfJ2b3llT1J1J1BhMSsilA2TC5C7o08Jun OPENAI_API_KEY=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 node dist/agent.js start dev",
+
     "build": "tsc"
   },
   "keywords": [],
